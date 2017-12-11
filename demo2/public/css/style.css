@@ -1,0 +1,62 @@
+table thead tr{
+	cursor: pointer;
+}
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid black;
+	display: inline-block;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid black;
+	display: inline-block;
+}
+
+@media screen and (max-width: 320px) {
+    p.name {
+        width: 60px;
+    }
+    p.address {
+        width: 120px;
+    }
+}
+@media screen and (max-width: 480px) {
+    p.name {
+        width: 60px;
+    }
+    p.address {
+        width: 120px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    p.name{
+        width: 120px;
+        /*word-wrap: break-word;*/
+        overflow-wrap: break-word;
+    }
+    p.address{
+        width:400px;
+        /*word-wrap: break-word;*/
+        overflow-wrap: break-word
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    p.name{
+        width: 120px;
+        /*word-wrap: break-word;*/
+        overflow-wrap: break-word;
+    }
+    p.address{
+        width:300px;
+        /*word-wrap: break-word;*/
+        overflow-wrap: break-word;
+    }
+}
